@@ -1,0 +1,36 @@
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.text-contact{
+    padding-top: 5%;
+    padding-bottom: 5%;
+ 
+}
+.text-contact h2{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.card-contact{
+    height: 400px;
+}
+.text-location h2{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.text-location {
+    margin-top: 5%;
+    background-color: rgb(227, 245, 255);
+    height: 600px;
+}
+.card-contact p{
+    display: flex;
+    gap: 14px;
+    font-size: 30px;
+}
+.card-contact{
+    padding-top: 25px;
+} */

@@ -1,0 +1,118 @@
+/* Section About clinic */
+
+/* .image-about{
+    width: 100%;
+    height: 100%;
+} */
+/* .swiper-slide .mage-about img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+.image-about {
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-about img {
+    width: 100%;        /* Ensures the image takes up the full width */
+   
+    object-fit: cover;  /* Ensures the image covers the slide without distortion */
+
+}
+ .about-swiper img{
+    width: 100%;
+    height: 100%;
+ }
+ .image-top-tip{
+    width: 100%;
+    height: 620px;
+    }
+.clinic-about h2{
+    padding-top: 5%;
+}
+.about-swiper{
+    width: 100%;
+    height: 500px;
+    background-color: rebeccapurple;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.about-description p{
+    line-height: 2;
+  
+}
+.clinic-about h2 {
+   padding: 70px 0px 70px;
+}
+.text-tech p{
+    line-height: 2;
+}
+.staff .our-team {
+    padding: 0px 0px 60px 0px; 
+}
+.text-about .clinic-about h2{
+    padding-top: 10%;
+  
+}
+.about-title {
+    padding: 0px 0 50px 0 !important;
+}
+/* .staff .title h2{
+    padding-top: 9%;
+} */
+.clinic h2{
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.text-tech {
+    font-weight: 700;
+}
+.about-tech{
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+.clinic-tech{
+    padding-bottom: 70px;
+}
+.text-tech h2 {
+     font-weight: 700;
+     line-height: 1.8;
+ }
+.control-tip-healthy .swiper-wraper{
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+    background: red;
+}
+.text-tech-mission{
+    line-height: 2;
+}
+
+@media (max-width:500px){
+    .image-about {
+        width: 100%;
+        height: 270px;
+    }
+    .clinic-about h2 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+@media (max-width:320px){
+    .image-about {
+        width: 100%;
+        height: 200px;
+    }
+   
+}
+
+
+
+

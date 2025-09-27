@@ -1,0 +1,718 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Content Section */
+
+.flex-box {
+    position: relative;
+    display: flex !important;
+    margin-top: -5%;
+    padding: 0 0 50px 0;
+}
+
+.flex-box .img-circle {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-box .description {
+    width: 50%;
+}
+
+.flex-box img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    left: 10%;
+}
+
+.flex-box h2 {
+    color: #007baf;
+    margin: 20px 0;
+}
+
+.flex-box p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #007baf;
+    color: white;
+    text-decoration: none;
+    border-radius: 0px;
+    padding: 10px 27px;
+}
+
+.specialities {
+    background-color: #e3f5ff;
+    width: 100%;
+}
+
+.specialities .title-h2 {
+    padding: 50px 0;
+}
+
+.specialities .title-h2 h2 {
+    font-weight: 700;
+}
+
+.specialities .wraper {
+    display: flex;
+}
+
+.specialities .wraper-card {
+    width: 60%;
+}
+
+.specialities .wraper-img {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.specialities .card {
+    width: calc(calc(100% / 2) - 20px);
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    float: left;
+    text-align: start;
+    text-wrap: nowrap;
+    border: none;
+    background: none;
+}
+
+.specialities .card .icon {
+    padding: 20px 0;
+    text-align: start;
+}
+
+.specialities .card img {
+    width: 50px;
+    height: 50px;
+}
+
+.specialities .card .title {
+    text-align: start;
+}
+
+.specialities .card .title h3 {
+    font-size: 18px;
+}
+
+.specialities .card p {
+    text-wrap: wrap;
+
+}
+
+.specialities .wraper-img {
+    text-align: center;
+}
+
+.specialities .wraper-img .img-big {
+    width: 300px;
+    position: absolute;
+    height: 300px;
+    border-radius: 50%;
+    padding: 0px;
+ 
+}
+
+.specialities .wraper-img .img-big img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.specialities .wraper-img .img-small {
+    height: 380px;
+    position: relative;
+    display: flex;
+    align-items: end;
+    margin-right: 180px;
+}
+
+.specialities .wraper-img .img-small img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.service {
+    text-align: start;
+    padding: 50px 0;
+}
+
+.service .title {
+    padding: 0px 0 30px 0;
+}
+
+.service .title h2 {
+    text-align: center;
+    font-weight: 700;
+    
+}
+
+.service .card {
+    width: calc(calc(100% / 4) - 24px);
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid #007baf;
+    display: inline-block;
+    box-shadow: 1px 1px 5px #a2a2a287;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service .card:hover {
+    transform: scale(1.02);
+}
+
+/* .service .card .image {
+    padding: 25px;
+} */
+
+.service .card img {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.service .card .title {
+    padding: 0;
+}
+
+.service .card .title p {
+    margin: 0;
+    font-weight: 700;
+    padding: 20px;
+}
+
+
+.our-team {
+    padding: 50px 0;
+    background-color: #e3f5ff;
+    text-align: start;
+}
+
+.our-team .title {
+    padding: 0px 0 30px 0;
+}
+
+.our-team .title h2 {
+    text-align: center;
+    font-weight: 700;
+   
+}
+
+.our-team .card {
+    width: calc(calc(100% / 4) - 24px);
+    margin: 10px;
+    display: inline-block;
+    border-radius: 0;
+    box-shadow: 1px 1px 3px #a2a2a2;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.our-team .doctor img {
+    width: 100%;
+    height: 300px;
+   object-fit: cover;
+    /* border-bottom: 3px solid #007baf; */
+}
+
+.our-team .doctor .name p {
+    text-align: center;
+    margin: 0;
+}
+.name p{
+    color: rgb(0, 110, 179);
+    padding: 15px;
+    font-weight: 700;
+}
+
+.health-package {
+    padding: 50px 0;
+}
+
+.health-package .title {
+    padding: 0px 0 30px 0;
+}
+
+.health-package .title h2 {
+    text-align: center;
+    font-weight: 700;
+   
+}
+
+
+.health-package .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+/* .health-package .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    width: auto;
+    height: auto;
+} */
+
+.health-package .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.health-package-button-next,
+.health-package-button-prev {
+    background-color: #007baf;
+    color: #ffffff;
+}
+
+:root {
+    --swiper-navigation-size: 30px !important;
+}
+
+.health-package .wraper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.health-package .wraper .left {
+    width: calc(calc(100% / 2) - 10px);
+    border: 2px solid #007baf;
+    margin: 0 10px 0 70px;
+    padding: 36px;
+    line-height: 2.2;
+    text-align: start;
+}
+.health-package .left{
+    background-color: rgb(0, 105, 158);
+    border-radius: 10px;
+}
+.left .card-title{
+ padding: 16px;
+}
+
+.health-package .wraper .left .title {
+    background-color: #007baf;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.health-package .left .title h5 {
+    margin: 0;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.health-package .wraper .left .list {
+    padding: 20px 0;
+}
+.health-package .wraper .left .list li{
+    font-weight: 700;
+}
+.health-package li{
+    font-size: 20px;
+}
+
+
+/* .health-package .wraper .right {
+    width: calc(calc(100% / 2) - 10px);
+    border: 2px solid #007baf;
+    margin: 0 70px 0 10px;
+    line-height: 2.2;
+    padding: 36px;
+    text-align: start;
+} */
+.health-package .card-body{
+    border: 2px solid #007baf;
+    padding: 30px;
+}
+.health-package .wraper .right .title {
+    background-color:rgb(0, 105, 158);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.health-package .wraper .right .title h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.health-package .wraper .right .list {
+    padding: 20px 0;
+}
+
+.health-package .btn-showmore {
+    text-align: center;
+}
+
+.gallery .title {
+    padding: 0px 0 30px 0;
+}
+
+.gallery .title h2 {
+    text-align: center;
+    font-weight: 700;
+    
+}
+
+.gallery {
+    text-align: center;
+}
+
+.gallery .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.gallery .swiper-slide img {
+    width: 100%;
+    height: 400px;
+    display: block;
+    object-fit: cover;
+}
+
+
+@media (max-width: 992px){
+    .our-team .card {
+        width: calc(calc(100% / 3) - 24px);
+    }
+    .health-package .wraper .right {
+       width: calc(calc(100% / 2) - 10px);
+        border: 2px solid #007baf;
+        line-height: 1.7;
+        margin: 0 35px 0 0px;
+        padding: 28px;
+        text-align: start;
+    }
+    .health-package .wraper .left {
+        width: calc(calc(100% / 2) - 10px);
+        border: 2px solid #007baf;
+        line-height: 1.7;
+        margin: 0 35px 0 0px;
+        padding: 28px;
+        text-align: start;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .flex-box img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .specialities .wraper {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .specialities .title-h2 h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .specialities  h2 {
+        text-align: center;
+    }
+
+    .specialities .wraper-img {
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .specialities .wraper-card {
+        width: 100%;
+    }
+
+    .service .card {
+        width: calc(calc(100% / 3) - 24px);
+    }
+
+    .our-team .card {
+        width: calc(calc(100% / 2) - 24px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .flex-box {
+        display: block !important;
+    }
+
+    .flex-box .img-circle {
+        width: 100%;
+    }
+
+    .flex-box h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .flex-box .description {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .btn-top {
+        width: 100%;
+        text-align: center;
+    }
+
+    .specialities .title-h2 h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .specialities .wraper-img .img-big {
+        width: 220px;
+        height: 220px;
+    }
+
+    .specialities .wraper-img .img-small {
+        height: 240px;
+    }
+
+    .specialities .wraper-img .img-small img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .specialities .card {
+        width: calc(calc(100% / 1) - 20px);
+        padding: 0;
+    }
+
+    .specialities .card .icon {
+        text-align: center;
+    }
+
+    .service .card {
+        width: calc(calc(100% / 2) - 24px);
+    }
+
+    .our-team {
+        text-align: center;
+    }
+    .our-team .card {
+        width: calc(calc(100% / 1) - 24px);
+    }
+
+    .health-package .wraper {
+        display: block;
+    }
+
+    .health-package .wraper .left {
+        width: 100%;
+        margin: 0;
+        border-bottom: 0;
+    }
+
+    .health-package .wraper .right {
+        width: 100%;
+        margin: 0;
+        padding-top: 100px;
+        border-top: 0;
+    }
+
+    .health-package .wraper .left .list {
+        padding: 20px 0 0 0;
+    }
+    .health-package li {
+        font-size: 15px;
+    }
+}
+
+
+/* MEDIA RESPONSIVE */
+
+@media (max-width:1300px) {
+    .btn-top {
+        padding-top: 3%;
+    }
+
+}
+@media (max-width:1440px){
+    .gallery .swiper-slide img {
+        width: 100%;
+        height: 280px;
+        display: block;
+        object-fit: cover;
+    }
+   
+}
+@media (max-width:1024px){
+    .about-description p {
+        line-height: 2;
+        font-size: 15px;
+    }
+    .gallery .swiper-slide img {
+        width: 100%;
+        height: 200px;
+        display: block;
+        object-fit: cover;
+    }
+
+}
+
+@media (max-width:992px) {
+
+    /* wave-section */
+    .wave-section h1 {
+        font-size: 2rem;
+    }
+    .gallery .swiper-slide img {
+        width: 100%;
+        height: 250px;
+        display: block;
+        object-fit: cover;
+    }
+}
+
+@media (max-width:768px) {
+
+    /* wave-section */
+    .wave-section h1 {
+        font-size: 1.5rem;
+    }
+    .health-package .wraper .left {
+        width: calc(calc(100% / 1) - 10px);
+        border: 2px solid #007baf;
+        line-height: 1.7;
+        margin: 0px 35px 0 37px;
+        padding: 28px;
+        text-align: start;
+    }
+    .health-package .wraper .right {
+        width: calc(calc(100% / 1) - 10px);
+        border: 2px solid #007baf;
+        line-height: 1.7;
+        margin: 0 35px 0 0px;
+        padding: 28px;
+        text-align: start;
+    }
+    .health-package .wraper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.health-package .wraper {
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.footer .address address {
+    margin: auto;
+    width: 80% !important;
+}
+}
+
+@media (max-width: 675px){
+    .gallery .swiper-slide img {
+        width: 100%;
+        height: 340px;
+        display: block;
+        object-fit: cover;
+    }
+}
+
+@media (max-width:600px) {
+
+    /* wave-section */
+    .wave-section h1 {
+        font-size: 1rem;
+    }
+    .btn-menu{
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #ffffff;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.3s ease;
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+
+    /* wave-section */
+    .wave-section h1 {
+        font-size: 0.9rem;
+    } 
+    .health-package .left h5  {
+        font-size: 15px;
+    }
+    .health-package li {
+        font-size: 13px;
+    }
+
+}
+
+
+/* hello */
+
+
+@media (max-width: 320px) {
+
+    /* wave-section */
+    .wave-section h1 {
+        font-size: 0.8rem;
+    }
+    .service .card .image {
+        padding: 0;
+    }
+    .health-package .left h5  {
+        font-size: 14px;
+    }
+    .left .card-title {
+        padding: 9px;
+    }
+    .service .card img {
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+    }
+    
+    .service .card .title {
+        padding: 0;
+    }
+    
+    .service .card .title p {
+        margin: 0;
+        font-weight: 700;
+        padding: 10px;
+    }
+}

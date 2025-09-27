@@ -1,0 +1,229 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Khmer OS Battambang, sans-serif;
+   
+}
+/* health-tip */
+.health-tip{
+padding-bottom: 5%;
+margin: auto;
+
+
+}
+.tip-health{
+    padding-bottom: 5%;
+}
+.health-tip h2{
+font-weight: 700;
+}
+.image-tip{
+width: 100%;
+height: 620px;
+
+}
+.image-tip img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+/* border-bottom: 5px solid rgb(0, 105, 158); */
+
+}
+.text-tip-health{
+width: 100%;
+display: block;
+margin: auto;
+justify-content: center;
+align-items: center;
+
+}
+.text-tip-health p{
+line-height: 2;
+font-size: 17px;
+
+}
+
+/*Page TOP-health-tips */
+
+.Control-tip-healthy h2{
+font-weight: 700;
+}
+.image-top-tip{
+width: 85%;
+height: 620px;
+}
+.image-top-tip img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.health-card{
+width: 100%;
+height: 100%;
+display: flex;
+margin: auto;
+padding-top: 50px;
+}
+.health-card .card img {
+width: 100%;
+height: 300px;
+object-fit: cover;
+border-bottom: 5px solid rgb(0, 105, 158);
+}
+.health-card .card  {
+border: none;
+}
+.health-card .card:hover {
+    transform: scale(1.02);
+}
+
+
+.health-card .card-title {
+font-weight: 700;
+line-height: 1.8;
+font-size: 18px;
+
+}
+.pagination-heathy{
+display: flex;
+justify-content: end;
+}
+.pagination-heathy .page-link{
+color: rgb(0, 105, 158); 
+font-weight: 700;
+}
+.text-tip-health ol.custom-counter {
+    list-style-type: none;
+    counter-reset: list-counter;
+    padding-left: 0;
+}
+.text-tip-health ol.custom-counter li {
+    counter-increment: list-counter;
+    position: relative;
+    padding-left: 2em;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.text-tip-health ol.custom-counter li::before {
+    content: counter(list-counter) "-";
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+/* .text-tip-health ol,ul{
+    padding-left: 0rem !important;
+} */
+
+.text-tip-health .custom-counter p{
+    margin-bottom: 0rem;
+}
+.image-top-tip .swiper{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+@media (max-width: 992px){
+/* .health-tip h2{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.5;
+ } */
+ 
+  .about-description h2{
+        padding-top: 10%;
+  }
+  .image-about {
+    width: 100%;
+    height: 350px;
+}
+.image-top-tip {
+    width: 85%;
+    height: 280px;
+}
+.image-about {
+    width: 100%;
+    height: 300px;
+}
+}
+@media(max-width:768px){
+.health-tip h2 {
+    font-size: 18.5px;
+}
+.text-tip-health p {
+    font-size: 14px;
+}
+.text-tip-health ol.custom-counter li {
+    font-size: 14px;
+}
+.image-tip {
+    width: 100%;
+    height: 450px;
+}
+}
+@media (max-width: 576px) {
+    .health-tip h2 {
+        font-size: 14px;
+    }
+    .text-tip-health p {
+        font-size: 12px;
+    }
+    .text-tip-health ol.custom-counter li {
+        font-size: 12px;
+    }
+   
+
+}
+
+@media(max-width: 500px){
+.text-tip-health p {
+    line-height: 2;
+   
+}
+/* .health-tip h2 {
+    font-weight: 700;
+    font-size: 12.5px;
+    line-height: 1.7;
+} */
+.image-tip {
+    height: 215px;
+}
+
+}
+@media (max-width: 450px){
+    .image-top-tip {
+        width: 85%;
+        height: 200px;
+    }
+  
+ 
+    }
+
+@media (max-width:320px)
+{
+    .health-card h5  {
+        font-size: 15px;
+     }
+     .image-tip {
+        height: 150px;
+    }
+    .health-tip h2 {
+        font-size: 13px;
+    }
+    .text-tip-health p {
+        font-size: 10px;
+    }
+    .text-tip-health ol.custom-counter li {
+        font-size: 10px;
+    }
+    .image-top-tip {
+        width: 85%;
+        height: 160px;
+    }
+   
+
+}
